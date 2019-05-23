@@ -73,7 +73,7 @@
             this.settingsToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(703, 24);
+            this.menuStrip1.Size = new System.Drawing.Size(726, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -351,10 +351,11 @@
             // 
             this.selectAllStartersButton.FlatAppearance.BorderSize = 0;
             this.selectAllStartersButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.selectAllStartersButton.Font = new System.Drawing.Font("Constantia", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.selectAllStartersButton.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.selectAllStartersButton.ForeColor = System.Drawing.Color.SlateGray;
             this.selectAllStartersButton.Location = new System.Drawing.Point(573, 225);
             this.selectAllStartersButton.Name = "selectAllStartersButton";
-            this.selectAllStartersButton.Size = new System.Drawing.Size(118, 23);
+            this.selectAllStartersButton.Size = new System.Drawing.Size(141, 23);
             this.selectAllStartersButton.TabIndex = 21;
             this.selectAllStartersButton.Text = "Select All Starters";
             this.selectAllStartersButton.UseVisualStyleBackColor = true;
@@ -363,10 +364,11 @@
             // 
             this.selectAllFossilsButton.FlatAppearance.BorderSize = 0;
             this.selectAllFossilsButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.selectAllFossilsButton.Font = new System.Drawing.Font("Constantia", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.selectAllFossilsButton.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.selectAllFossilsButton.ForeColor = System.Drawing.Color.SlateGray;
             this.selectAllFossilsButton.Location = new System.Drawing.Point(573, 201);
             this.selectAllFossilsButton.Name = "selectAllFossilsButton";
-            this.selectAllFossilsButton.Size = new System.Drawing.Size(112, 23);
+            this.selectAllFossilsButton.Size = new System.Drawing.Size(130, 23);
             this.selectAllFossilsButton.TabIndex = 22;
             this.selectAllFossilsButton.Text = "Select All Fossils";
             this.selectAllFossilsButton.UseVisualStyleBackColor = true;
@@ -375,10 +377,11 @@
             // 
             this.selectAllPokemonButton.FlatAppearance.BorderSize = 0;
             this.selectAllPokemonButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.selectAllPokemonButton.Font = new System.Drawing.Font("Constantia", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.selectAllPokemonButton.Location = new System.Drawing.Point(573, 249);
+            this.selectAllPokemonButton.Font = new System.Drawing.Font("Verdana", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.selectAllPokemonButton.ForeColor = System.Drawing.Color.SlateGray;
+            this.selectAllPokemonButton.Location = new System.Drawing.Point(573, 250);
             this.selectAllPokemonButton.Name = "selectAllPokemonButton";
-            this.selectAllPokemonButton.Size = new System.Drawing.Size(130, 23);
+            this.selectAllPokemonButton.Size = new System.Drawing.Size(148, 23);
             this.selectAllPokemonButton.TabIndex = 23;
             this.selectAllPokemonButton.Text = "Select All Pokemon";
             this.selectAllPokemonButton.UseVisualStyleBackColor = true;
@@ -423,7 +426,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.ClientSize = new System.Drawing.Size(703, 641);
+            this.ClientSize = new System.Drawing.Size(726, 641);
             this.Controls.Add(this.resultsView);
             this.Controls.Add(this.updateBoxesButton);
             this.Controls.Add(this.downloadReportButton);
